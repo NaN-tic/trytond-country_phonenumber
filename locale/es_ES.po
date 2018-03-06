@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:load.country.phonenumber:"
+msgid "CSV Import Error!"
+msgstr "Error importación CSV!"
+
+msgctxt "error:load.country.phonenumber:"
+msgid ""
+"Error reading file: %s.\n"
+"Error raised: %s."
+msgstr ""
+"Error leyendo fichero: %s.\n"
+"Error obtenido: %s."
+
+msgctxt "field:country.country,phonenumber:"
+msgid "Phonenumber"
+msgstr "Prefijo teléfono"
+
+msgctxt "field:load.country.phonenumber.start,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:ir.action,name:load_country_phonenumber_action_wizard"
+msgid "Load Country Phonenumber"
+msgstr "Añade los prefijos de teléfonos de los países"
+
+msgctxt "model:load.country.phonenumber.start,name:"
+msgid "Load Country Phonenumber Start"
+msgstr "Inicio añadir los prefijos de teléfonos de los países"
+
+msgctxt "view:load.country.phonenumber.start:"
+msgid "Load country phonenumber"
+msgstr "Añade los prefijos de teléfonos de los países"
+
+msgctxt "view:load.country.phonenumber.start:"
+msgid ""
+"This process will load all phonenumbers prefix related to country in the "
+"database."
+msgstr ""
+"Este proceso actualizará los prefijos de teléfonos relacionados con cada "
+"país a la base de datos."
+
+msgctxt "wizard_button:load.country.phonenumber,start,accept:"
+msgid "Accept"
+msgstr "Aceptar"
+
+msgctxt "wizard_button:load.country.phonenumber,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"

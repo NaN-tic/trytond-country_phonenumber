@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of country_zip_es module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="country_view_form">
+            <field name="model">country.country</field>
+            <field name="inherit" ref="country.country_view_form"/>
+            <field name="name">country_form</field>
+        </record>
+
+        <!-- country phonenumber wizard -->
+        <record model="ir.ui.view" id="load_country_phonenumber_start_view_form">
+            <field name="model">load.country.phonenumber.start</field>
+            <field name="type">form</field>
+            <field name="name">load_country_phonenumber_start_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="load_country_phonenumber_action_wizard">
+            <field name="name">Load Country Phonenumber</field>
+            <field name="wiz_name">load.country.phonenumber</field>
+        </record>
+
+        <record model="ir.module.config_wizard.item"
+            id="config_wizard_load_country_phonenumber">
+            <field name="action" ref="load_country_phonenumber_action_wizard"/>
+            <field name="sequence" eval="40"/>
+        </record>
+    </data>
+</tryton>
